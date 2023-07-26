@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming Events page</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+ <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="card swiper-slide">
+                <div class="card_image">
+                    <img src="/images/1.jpg" alt="card image">
+                </div>
+                <div class="card_content">
+                    <span class="card_title">ReactJS Workshop</span>
+                    <span class="card_name">By Sushant Bishoi</span>
+                   
+                    <p class="card_text" style="color: black;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus maiores tempore nulla accusamus quos non veritatis tempora ipsam eligendi? Mollitia?</p>
+                    <button class="card_btn">View More</button>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="card_image">
+                    <img src="/images/2.jpg" alt="card image">
+                </div>
+                <div class="card_content">
+                    <span class="card_title">CSS Workshop</span>
+                    <span class="card_name">By Sushant Bishoi</span>
+                   
+                    <p class="card_text" style="color: black;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus maiores tempore nulla accusamus quos non veritatis tempora ipsam eligendi? Mollitia?</p>
+                    <button class="card_btn">View More</button>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="card_image">
+                    <img src="/images/3.jpg" alt="card image">
+                </div>
+                <div class="card_content">
+                    <span class="card_title">JS Workshop</span>
+                    <span class="card_name">By Sushant Bishoi</span>
+                   
+                    <p class="card_text" style="color: black;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus maiores tempore nulla accusamus quos non veritatis tempora ipsam eligendi? Mollitia?</p>
+                    <button class="card_btn">View More</button>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+                <div class="card_image">
+                    <img src="/images/4.jpg" alt="card image">
+                </div>
+                <div class="card_content">
+                    <span class="card_title">HTML Workshop</span>
+                    <span class="card_name">By Sushant Bishoi</span>
+                   
+                    <p class="card_text" style="color: black;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus maiores tempore nulla accusamus quos non veritatis tempora ipsam eligendi? Mollitia?</p>
+                    <button class="card_btn">View More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 0,
+          depth: 300,
+          modifier: 1,
+          slideShadows: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+
+
+
+
+
+
+</body>
+</html>
